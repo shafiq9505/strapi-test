@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import SignIn from '../components/Authentication/SignIn.vue'
+import SignIn from '../components/Authentication/views/SignIn.vue'
 
 export default new Router({
   routes: [
