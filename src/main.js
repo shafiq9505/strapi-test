@@ -4,17 +4,19 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import veeValidate from 'vee-validate'
-import NProgress from 'nprogress'
 import VueFire from 'vuefire'
 import VueRouter from 'vue-router'
-
-import '../node_modules/nprogress/nprogress.css'
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+import UUID from 'vue-uuid';
 
 Vue.config.productionTip = false
 Vue.use(veeValidate)
 Vue.use(router)
 Vue.use(VueFire)
 Vue.use(VueRouter)
+Vue.use(ElementUI)
+Vue.use(UUID)
 /* eslint-disable no-new */
 
 

@@ -1,6 +1,5 @@
 
-//db
-
+//firebase environment
 import Firebase from 'firebase'
 
 let config = {
