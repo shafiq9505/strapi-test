@@ -16,7 +16,7 @@
                     <el-input v-model="authentication.password"></el-input>
                 </el-form-item>
                 <el-button type="success" @click="SignIn">Submit</el-button>
-                <el-button @click="FaceId('let me see your face bij')">Face Id</el-button>
+                <el-button @click="FaceId()">Face Id</el-button>
             </el-col>
         </el-form>
     </el-row>
@@ -63,7 +63,8 @@ export default {
         },
         FaceId()
         {
-        //    now how to get face id
+        console.warn(window)
+        console.warn(cordova)
         }
     }
 }
