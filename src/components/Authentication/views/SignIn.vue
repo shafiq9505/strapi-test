@@ -31,7 +31,7 @@ import {
     db
 } from '../../../config/db';
 import { functions } from 'firebase';
-var CID = require('../../../../plugins/cordova-plugin-ios-faceid/www/CID')
+// var CID = require('../../../../plugins/cordova-plugin-ios-faceid/www/CID')
 export default {
     components: {
         name: 'Authentication'
