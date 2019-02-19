@@ -1,0 +1,58 @@
+{
+  "_from": "cordova-plugin-biometric",
+  "_id": "cordova-plugin-biometric@0.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-ZB8/Ejdcd5D+QaxkJCy4E07SC2fxqe50AOptLSoUQQzJMn6lXThwBOknqBCJAM6mE5DwZ3KJI3WQL5Zdwj9RBg==",
+  "_location": "/cordova-plugin-biometric",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-biometric",
+    "name": "cordova-plugin-biometric",
+    "escapedName": "cordova-plugin-biometric",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-biometric/-/cordova-plugin-biometric-0.0.3.tgz",
+  "_shasum": "df1e16d247353f21e1e0329744e7606f72732fdd",
+  "_spec": "cordova-plugin-biometric",
+  "_where": "/Users/muhammadsalmanbinmohdshah/Desktop/strapi/strapi-test",
+  "author": {
+    "name": "Coder"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-biometric",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Scan the fingerprint of your user with the TouchID sensor, or the user's Face with Face ID on iPhone X",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "keywords": [
+    "TouchID",
+    "Touch ID",
+    "Face ID",
+    "iPhone X",
+    "Fingerprint",
+    "Biometric",
+    "Scanner",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-biometric",
+  "version": "0.0.3"
+}

@@ -50,19 +50,20 @@ export default {
     },
     methods: {
         SignIn() {
-            let id = this.$uuid.v5()
+            let id = this.$uuid.v4()
             this.$firebaseRefs.Authentication.child(id).set({
                 guid: id,
                 username: this.authentication.userName,
-                password: this.authentication.password
-            })
+                password: this.authentication.password,
+                date : Date.now()
+            }).then(
+                this.authentication.userName = '',
+                this.authentication.password = ''
+            )
         },
-        FaceId(data)
+        FaceId()
         {
-            CID.FaceId(data,functions(res))
-            {
-                res == 'success' ? console.warn("success") : console.warn("failed")
-            }
+        //    now how to get face id
         }
     }
 }

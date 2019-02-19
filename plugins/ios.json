@@ -12,6 +12,10 @@
     },
     "cordova-plugin-ios-faceid": {
       "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-biometric": {
+      "FACEID_USAGE_DESCRIPTION": " ",
+      "PACKAGE_NAME": "io.cordova.hellocordova"
     }
   },
   "dependent_plugins": {}

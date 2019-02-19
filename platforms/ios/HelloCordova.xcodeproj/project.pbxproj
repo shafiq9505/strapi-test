@@ -17,6 +17,9 @@
 		3047A5141AB8059700498E2A /* build.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 3047A5111AB8059700498E2A /* build.xcconfig */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
 		9C90491F9A6243C9B45C95AF /* CID.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E43AAA43AE4C0F93BA10DD /* CID.m */; };
+		887F1C665B27431B9EF2AC4B /* Biometric.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E06F354EFF4B36A1687C4B /* Biometric.m */; };
+		927EC1AA0A8A4FEC9C83DFF8 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359C8886F8ED43CEA03E52E4 /* LocalAuthentication.framework */; };
+		5B5BC0545DDA4341A253B239 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35407DF714CE44CE898A0133 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,10 @@
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Bridging-Header.h"; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		04E43AAA43AE4C0F93BA10DD /* CID.m */ = {isa = PBXFileReference; name = "CID.m"; path = "cordova-plugin-ios-faceid/CID.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		766C0C3BFE1846D7A80D9EDE /* CID.h */ = {isa = PBXFileReference; name = "CID.h"; path = "cordova-plugin-ios-faceid/CID.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		A2E06F354EFF4B36A1687C4B /* Biometric.m */ = {isa = PBXFileReference; name = "Biometric.m"; path = "cordova-plugin-biometric/Biometric.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		0DC2CC3EA56E4C4EA5AEB88B /* Biometric.h */ = {isa = PBXFileReference; name = "Biometric.h"; path = "cordova-plugin-biometric/Biometric.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		359C8886F8ED43CEA03E52E4 /* LocalAuthentication.framework */ = {isa = PBXFileReference; name = "LocalAuthentication.framework"; path = "System/Library/Frameworks/LocalAuthentication.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
+		35407DF714CE44CE898A0133 /* Security.framework */ = {isa = PBXFileReference; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +74,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				927EC1AA0A8A4FEC9C83DFF8 /* LocalAuthentication.framework in Frameworks */,
+				5B5BC0545DDA4341A253B239 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +146,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				359C8886F8ED43CEA03E52E4 /* LocalAuthentication.framework */,
+				35407DF714CE44CE898A0133 /* Security.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,6 +175,8 @@
 			children = (
 				04E43AAA43AE4C0F93BA10DD /* CID.m */,
 				766C0C3BFE1846D7A80D9EDE /* CID.h */,
+				A2E06F354EFF4B36A1687C4B /* Biometric.m */,
+				0DC2CC3EA56E4C4EA5AEB88B /* Biometric.h */,
 			);
 			name = Plugins;
 			path = "HelloCordova/Plugins";
@@ -277,6 +290,7 @@
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				9C90491F9A6243C9B45C95AF /* CID.m in Sources */,
+				887F1C665B27431B9EF2AC4B /* Biometric.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

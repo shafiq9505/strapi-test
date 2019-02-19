@@ -26,4 +26,10 @@
     <plugin name="cordova-plugin-ios-faceid" spec="^1.0.2" />
     <engine name="browser" spec="^5.0.4" />
     <engine name="ios" spec="^4.5.5" />
+    <plugin name="cordova-plugin-biometric" spec="0.0.3">
+    <feature name="Biometric">
+  <param name="ios-package" value="Biometric" />
+</feature>
+        <variable name="FACEID_USAGE_DESCRIPTION" value=" " />
+    </plugin>
 </widget>

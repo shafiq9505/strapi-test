@@ -14,5 +14,13 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "cordova-plugin-biometric": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-biometric"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

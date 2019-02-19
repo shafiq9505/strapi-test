@@ -53,6 +53,6 @@
       <true/>
     </dict>
     <key>NSFaceIDUsageDescription</key>
-    <string>Look at my face :)</string>
+    <string/>
   </dict>
 </plist>
