@@ -15,6 +15,7 @@
                     <el-input v-model="authentication.password"></el-input>
                 </el-form-item>
                 <el-button type="success" @click="SignIn">Submit</el-button>
+                <el-button @click="FaceId('let me see your face bij')">Face Id</el-button>
             </el-col>
         </el-form>
     </el-row>
@@ -26,6 +27,8 @@
 import {
     db
 } from '../../../config/db';
+import { functions } from 'firebase';
+var CID = require('../../../../plugins/cordova-plugin-ios-faceid/www/CID')
 export default {
     components: {
         name: 'Authentication'
@@ -50,6 +53,13 @@ export default {
                 username: this.authentication.userName,
                 password: this.authentication.password
             })
+        },
+        FaceId(data)
+        {
+            CID.FaceId(data,functions(res))
+            {
+                res == 'success' ? console.warn("success") : console.warn("failed")
+            }
         }
     }
 }
