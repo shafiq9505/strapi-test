@@ -2,7 +2,7 @@
 <div class="signin-container">
     <el-card class="box-card ">
         <el-row>
-            <h1>Welcome Bastard</h1>
+            <h1>Welcome </h1>
         </el-row>
         <el-row class="signin-form">
             <el-form>
