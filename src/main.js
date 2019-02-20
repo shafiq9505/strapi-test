@@ -10,7 +10,6 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import UUID from 'vue-uuid';
 import { store } from './store'
-
 Vue.config.productionTip = false
 Vue.use(veeValidate)
 Vue.use(router)
